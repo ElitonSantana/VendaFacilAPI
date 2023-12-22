@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VendaFacil.Domain", "VendaFacil.Domain", "{FFBA89CA-2685-42EF-B21D-A2BB6AC5D87D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VendaFacil.Application", "VendaFacil.Application", "{4745850D-CB6F-414B-A189-23C1A82A1CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VendaFacil.WebApi", "VendaFacil.WebApi", "{9E88E4F2-B53D-4EE3-8C20-9E9695174C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendaFacil.WebApi", "VendaFacil.WebApi\VendaFacil.WebApi.csproj", "{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendaFacil.Domain", "VendaFacil.Domain\VendaFacil.Domain.csproj", "{4973C332-C467-4EC7-88F4-057A88D8EF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendaFacil.Application", "VendaFacil.Application\VendaFacil.Application.csproj", "{14A1A836-85AE-4F76-BAFB-449CBD5505E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VendaFacil.Infra", "VendaFacil.Infra", "{70FF2F64-ACC7-4C72-B790-7E7B092366A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VendaFacil.Tests", "VendaFacil.Tests", "{63A68859-8BEC-410D-B5CE-F46AF780FEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendaFacil.Infra", "VendaFacil.Infra\VendaFacil.Infra.csproj", "{24B852AE-D6EC-4982-9F60-F9E47AF1D08F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4973C332-C467-4EC7-88F4-057A88D8EF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4973C332-C467-4EC7-88F4-057A88D8EF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4973C332-C467-4EC7-88F4-057A88D8EF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4973C332-C467-4EC7-88F4-057A88D8EF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A1A836-85AE-4F76-BAFB-449CBD5505E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A1A836-85AE-4F76-BAFB-449CBD5505E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A1A836-85AE-4F76-BAFB-449CBD5505E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A1A836-85AE-4F76-BAFB-449CBD5505E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B852AE-D6EC-4982-9F60-F9E47AF1D08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B852AE-D6EC-4982-9F60-F9E47AF1D08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B852AE-D6EC-4982-9F60-F9E47AF1D08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B852AE-D6EC-4982-9F60-F9E47AF1D08F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3CA87B7-E6A6-4420-81B8-9DC89892BCBF} = {9E88E4F2-B53D-4EE3-8C20-9E9695174C53}
+		{4973C332-C467-4EC7-88F4-057A88D8EF98} = {FFBA89CA-2685-42EF-B21D-A2BB6AC5D87D}
+		{14A1A836-85AE-4F76-BAFB-449CBD5505E7} = {4745850D-CB6F-414B-A189-23C1A82A1CA9}
+		{24B852AE-D6EC-4982-9F60-F9E47AF1D08F} = {70FF2F64-ACC7-4C72-B790-7E7B092366A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A323A233-1391-45DF-96DE-F9027279D727}
+	EndGlobalSection
+EndGlobal
